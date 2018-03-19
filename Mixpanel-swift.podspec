@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name = 'Mixpanel-swift'
-  s.version = '2.3.3'
+  s.version = '2.3.4-no-push'
   s.module_name = 'Mixpanel'
   s.license = 'Apache License, Version 2.0'
   s.summary = 'Mixpanel tracking library for iOS (Swift)'
   s.homepage = 'https://mixpanel.com'
   s.author       = { 'Mixpanel, Inc' => 'support@mixpanel.com' }
-  s.source       = { :git => 'https://github.com/mixpanel/mixpanel-swift.git',
+  s.source       = { :git => 'https://github.com/mluisbrown/mixpanel-swift.git',
                      :tag => "v#{s.version}" }
   s.ios.deployment_target = '8.0'
   s.ios.resources = ['Mixpanel/**/*.{png,xib,storyboard}']
